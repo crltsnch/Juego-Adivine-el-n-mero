@@ -6,8 +6,9 @@ https://github.com/crltsnch/Juego-Adivine-el-n-mero.git
 Hemos resuelto un juego de adivinar valores entre 0 y 99.
 El diagrama de flujo que tenemos de nuestro codigo es:
 
-![diagrama de flujo adivine el num  ero](/crltsnch/Juego-Adivine-el-n-mero/Untitled.png)
-importar al  azar
+! [diagrama de flujo adivine el num ero] (/crltsnch/Juego-Adivine-el-n-mero/Untitled.png)
+```
+importar al azar
 numero  =  int ( aleatorio . randint ( 0 , 99 ))
 print ( "Adivine el numero" )
 intento  =  int ( input ( "piensa un numero entre 0 y 99 incluidos:" ))
@@ -32,3 +33,4 @@ otra cosa :
         elif  intento  ==  numero :
             print ( "Ha ganado" )
 print ( ""  +  str ( numero_intentos ))
+```
