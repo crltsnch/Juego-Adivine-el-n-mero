@@ -1,9 +1,9 @@
 import random
 numero = random.randint(0, 99)
-numero = int
+numero = int ()
+intento = input("piensa un numero entre 0 y 99: ")
 
 print(numero)
-print("piensa un numero entre" + str(0) + str(99))
-numero_usuario = input()
+print("piensa un numero entre 0 y 99: " + str(0) + str(99))
 
-while str(numero_usuario) > 99:
+while str(intento) > 99:
