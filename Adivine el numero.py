@@ -1,6 +1,5 @@
 import random
 numero = int(random.randint(0, 99))
-print(numero)
 print("Adivine el numero")
 intento = int(input("piensa un numero entre 0 y 99 incluidos: "))
 numero_intentos = 1
