@@ -15,7 +15,7 @@ else:
     elif int(intento) > numero:
         print("Demasiado grande")
     while int(intento) != numero:
-        intento = int(input("piensa un numero entre o y 00 incluidos: "))
+        intento = int(input("piensa un numero entre 0 y 99 incluidos: "))
         numero_intentos += 1
         if intento > numero:
             print("Demasiado grande")
